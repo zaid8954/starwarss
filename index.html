@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Animation.Css -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="lib/animate/animate.min.css">
+
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>starwars</title>
+  </head>
+  <body>
+    
+    <!-- Top Header starts here  -->
+    <div class="top-item">
+        <div class="container top-item">
+            <div class="d-flex justify-content-between">
+                <div class="icon">
+                    <a href=""><i class="bi bi-tiktok text-white  fs-5"></i></a>
+                    <a href=""><i class="bi bi-instgram text-white  fs-5 me-3"></i></a>
+                    <a href=""><i class="bi bi-twitter text-white  fs-5 me-3"></i></a>
+                    <a href=""><i class="bi bi-facebook text-white  fs-5 me-3"></i></a>
+                    <a href=""><i class="bi bi-youtube text-white  fs-5 me-3"></i></a> <span class="text-white me-3">|</span>
+                    <a href="" style="width: 60px; height: 15px; background-color: white; border-radius: 10px;"><img src="https://lumiere-a.akamaihd.net/v1/images/sw_nav_kids_937ed58b.svg?region=0%2C0%2C40%2C15" alt=""></a>
+                </div>
+
+                <div class="logo">
+                    <img src="img/10007.png" alt="" width="170px">
+                </div>
+
+                <div class="right">
+                    <a href=""><i class="bi bi-search me-2"></i> SEARCH</a>
+                    &emsp;
+                    <a href=""><i class="bi bi-person me-2"></i> SIGN IN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="difrant p-3">
+        <div class="difrent-item d-flex justify-content-between">
+            <div class="dif-left">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dif">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-navicon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              NEWS+ FEATURES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">THE LATEST</a></li>
+                              <li><a class="dropdown-item" href="#">ASHOKA</a></li>
+                              <li><a class="dropdown-item" href="#">COMMUNITY</a></li>
+                              <li><a class="dropdown-item" href="#">QUIZZES + POLLS</a></li>
+                              <li><a class="dropdown-item" href="#">BOOKS +COMICS </a></li>
+                              <li><a class="dropdown-item" href="#">RECIPES</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              VIDEO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">ALL VIDEO</a></li>
+                              <li><a class="dropdown-item" href="#">THIS WEEKI IN START</a></li>
+                              <li><a class="dropdown-item" href="#">WARS</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link me-3" href="#">FILMS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link me-3" href="#">SERIES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link me-3" href="#">INTERACTIVE</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link me-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              DATABANK
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#"> ALL DATABANK</a></li>
+                              <li><a class="dropdown-item" href="#">ERAS</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              DINSEY+
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">STREAM NOW</a></li>
+                              <li><a class="dropdown-item" href="#">EXPLORE</a></li>
+                              <li><a class="dropdown-item" href="#">THIS DISNEY BUNDLE</a></li>
+                              
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+    
+            <div class="dif-right text-white fs-4">
+                <i class=" bi bi-search"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dif2">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  NEWS+ FEATURES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">THE LATEST</a></li>
+                  <li><a class="dropdown-item" href="#">ASHOKA</a></li>
+                  <li><a class="dropdown-item" href="#">COMMUNITY</a></li>
+                  <li><a class="dropdown-item" href="#">QUIZZES + POLLS</a></li>
+                  <li><a class="dropdown-item" href="#">BOOKS +COMICS </a></li>
+                  <li><a class="dropdown-item" href="#">RECIPES</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  VIDEO
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">ALL VIDEO</a></li>
+                  <li><a class="dropdown-item" href="#">THIS WEEKI IN START</a></li>
+                  <li><a class="dropdown-item" href="#">WARS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">FILMS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">SERIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">INTERACTIVE</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link me-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DATABANK
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"> ALL DATABANK</a></li>
+                  <li><a class="dropdown-item" href="#">ERAS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DINSEY+
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">STREAM NOW</a></li>
+                  <li><a class="dropdown-item" href="#">EXPLORE</a></li>
+                  <li><a class="dropdown-item" href="#">THIS DISNEY BUNDLE</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="para">
+        <H6 class="text-center text-white ">ALL OF YOUR STAR WARSFAVORITES NOW STREAMING ON DISNEY +</H6>
+    </div>
+
+    <!-- Carousel banner starst here  -->
+    <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active position">
+                <img src="img/10011.jpeg" class="d-block w-100" alt="...">
+
+                <div class="overly">
+                    <img src="img/10012 (1).png" alt="" width="70%" class="mb-3">
+                    <p class="mb-3 text-center">Hera risks her career to help her friends while Ahsoka and Sabine confront enemies.</p>
+                    <a href="" class="btn btn-warning btn-outline-warning text-center text-dark">READ MORE</a> 
+                </div>
+            </div>
+            <div class="carousel-item" style="position: relative;">
+                <img src="img/10013.jpeg" class="d-block w-100" alt="...">
+
+                <div class="overly">
+                    <h2 class="text-white mb-3"><i>The Mandalorian</i></h1>
+                    <h2 class="text-white mb-3"> Seasons 1 and 2 Blast Onto 4K Ultra HD and Blu-ray</h1>
+                    <p class="text-white mb-4">For collectors, this is the way.</p>
+                    <a href="" class="btn btn-warning btn-outline-warning text-center text-dark">READ MORE</a> 
+                </div>
+            </div>
+            <div class="carousel-item">
+                 <img src="img/10014.jpeg" class="d-block w-100" alt="...">
+                <div class="overly">
+                    <h2 class="text-white mb-4">Make Loth-Cat Cookies for a Purrfect Treat</h2>
+                    <h5 class="text-white mb-4"> Check out StarWars.com's recipe celebrating these cuddly creatures, recently seen in  <i>Ahsoka</i></h4>
+                    <a href="" class="btn btn-warning btn-outline-warning text-center text-dark">READ MORE</a> 
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/10015 (1).jpeg" class="d-block w-100" alt="...">
+                <div class="overly">
+                    <h2 class="text-white mb-3">HOW IS THE AHSOKA TANO?</h2>
+                    <h6 class="text-white mb-3"> One a rebel, always a rebel.</h6>
+                    <a href="" class="btn btn-warning btn-outline-warning text-center text-dark">READ MORE</a> 
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- card starts here  -->
+    <div class="banner-card">
+        <div class="container banner-card-item">
+
+            <div class="banner-card-overly">
+                <img src="img/10017.png" alt="" width="70%" class="mb-3">
+                <p class="mb-3 text-center text-white mb-4  fw-bold">Ahsoka Tano investigates an emerging threat to the galaxy. </p>
+                <div class="anchor">
+                    <a href="" class="btn btn-warning btn-outline-warning text-center text-dark me-3">STREAM NOW</a>
+                    <a href="" class="btn btn-warning btn-outline-light text-center text-white" style="background-color: #000;">EXPLORE</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fly starts here  -->
+    <div class="fly">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="img/10022.jpeg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text"> Ahsoka Analyzed: 5 Highlights from “Part Three: Time to Fly” </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="img/10023.jpeg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">  Ahsoka Extras: “Part Three: Time to Fly” </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero starst here  -->
+    <div class="hero">
+        <div class="container">
+            <div class="owl-carousel owl-theme top mb-5" id="slider-1">
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10024.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Droid Fight | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10025.jpg" class="card-img-top" alt="...">
+                        </div>
+
+                        <a href="https://youtu.be/NvnNl9s9aCk?t=3">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Rebel Crew Featurette | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10026.jpg" class="card-img-top" alt="...">
+                        </div>
+
+                        <a href="https://youtu.be/EDMxhDsLA0A">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Ahsoka Product Unboxing | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10024.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Droid Fight | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="owl-carousel owl-theme top" id="slider-2">
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10040.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> This is a Shin Hati fan account.  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10041.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        <a href="https://youtu.be/NvnNl9s9aCk?t=3">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  This is a Loth-cat appreciation post.  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10042.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        <a href="https://youtu.be/EDMxhDsLA0A">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Meow. Make Loth-cat cookies for a purrfect treat!  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10043.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  A new Jedi has arrived.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10044.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  *low humming intensifies*  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10045.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Ahsoka means love and light.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10046.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  The master-apprentice legacy with the cast and filmmakers of Ahsoka.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10048.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Her name is Ahsoka Tano.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10049.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Rosario Dawson is Ahsoka Tano.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10050.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Quiet luxury but make it rebels.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10051.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Once a rebel, always a rebel.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10052.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  This Week In Star Wars, we get a new look at the upcoming Ahsoka series.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10053.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Icon. All these and more now streaming on Disney+.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10056.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text">  Rosario Dawson's dedication to becoming Ahsoka is unmatched.  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features starts here  -->
+    <div class="feature ">
+        <div class="container">
+            <h4>Latest News + Features</h4>
+            
+            <div class="owl-carousel owl-theme top mb-5" id="slider-3">
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/ahsoka-fan-celebration-0912-featured_e47a7f4e.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                          <p class="card-text">  Watch Ahsoka in Theaters at the Midseason Fan Celebration Event </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/quiz-what-percent-sabine-are-you_article-feature_f5d52fe2.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                          <p class="card-text">  Quiz: What Percent Sabine Wren Are You?    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10060.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                          <p class="card-text">   Ahsoka Extras: “Part Three: Time to Fly”     </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10061.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                          <p class="card-text">  Ahsoka Analyzed: 5 Highlights from “Part Three: Time to Fly”    </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10062.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                          <p class="card-text">   Ahsoka Gift Guide     </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10063.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                          <p class="card-text">   The Ghost Comes to Life: A Closer Look at the Newest HasLab Star Wars Project     </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10064.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                          <p class="card-text">  Ahsoka Draws 14 Million Views for First Episode    </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10065.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                          <p class="card-text">  Hasbro Ahsoka Fanstream: Sabine Wren’s Helmet and More Reveals    </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10067.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                          <p class="card-text">  The Mandalorian Seasons 1 and 2 Blast Onto 4K Ultra HD and Blu-ray - Updated    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10068.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                          <p class="card-text">   Ahsoka Extras: “Part Two: Toil and Trouble”     </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10069.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                          <p class="card-text">   Ahsoka Analyzed: 5 Highlights from “Part Two: Toil and Trouble”     </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h4>Latest Video</h4>
+            <div class="owl-carousel owl-theme top mb-5" id="slider-1">
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/ahsoka-fan-celebration-0912-featured_e47a7f4e.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Droid Fight | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10024.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        <a href="https://youtu.be/NvnNl9s9aCk?t=3">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Rebel Crew Featurette | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10072.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        <a href="https://youtu.be/EDMxhDsLA0A">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Ahsoka Product Unboxing | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10073.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Droid Fight | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10074.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Droid Fight | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10075.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <a href="https://youtu.be/flS1yK6uU6g">
+                            <div class="hero-overly">
+
+                            </div>
+                        </a>
+                        <div class="card-body">
+                          <p class="card-text"> Droid Fight | Ahsoka </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h4>Explore More</h4>
+            
+            <div class="owl-carousel owl-theme top mb-5" id="slider-3">
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10078.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">    Star Wars on Disney+     </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10079.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                            <p class="card-text">    The Eras of Star Wars        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10080.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                            <p class="card-text">  Star Wars Celebration    </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10081.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">  Star Wars: The High Republic    </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10082.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">  Immersive Entertainment    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="img">
+                            <img src="img/10083.jpeg" class="card-img-top" alt="...">
+                        </div>
+
+                        
+                        <div class="card-body">
+                            <p class="card-text">  Star Wars: Force for Change    </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer starts here  -->
+    <footer>
+        <div class="container">
+            <div class="copy-right text-center text-white fw-bold mb-5">
+                <p class="mb-2">More From Star Wars</p>
+                <p>
+                    <a href=""><i class="bi bi-tiktok text-white  fs-5"></i></a>
+                    <a href=""><i class="bi bi-instgram text-white  fs-5 me-3"></i></a>
+                    <a href=""><i class="bi bi-twitter text-white  fs-5 me-3"></i></a>
+                    <a href=""><i class="bi bi-facebook text-white  fs-5 me-3"></i></a>
+                    <a href=""><i class="bi bi-youtube text-white  fs-5 me-3"></i></a> <span class="text-white me-3">|</span>
+                    <a href="" style="width: 60px; height: 15px; background-color: white; border-radius: 10px;"><img src="https://lumiere-a.akamaihd.net/v1/images/sw_nav_kids_937ed58b.svg?region=0%2C0%2C40%2C15" alt=""></a>
+                </p>
+            </div>
+
+            <div class="second-copy text-center mb-5">
+                <p class="mb-2 text-white"><small>TM & &copy; Lucasfilm Ltd. All Rights Reserved </small></p>
+                <p>
+                    <a href="" class="me-2"><small>Terms of Use </small></a>
+                    <a href="" class="me-2"><small>Additonal Content Information </small></a>
+                    <a href="" class="me-2"><small>Privacy Policy </small></a>
+                    <a href="" class="me-2"><small>Children's Online Privacy Policy </small></a>
+                    <a href="" class="me-2"><small>Terms of Use </small></a>
+                    <a href=""><small> Your US State Privacy Rights</small></a>
+                    <a href="" class="me-2"><small> Star Wars at shopDisney </small></a>
+                    <a href="" class="me-2"><small>Star Wars Helpdesk </small></a>
+                    <a href="" class="me-2"><small>Interest-Based Ads </small></a>
+                    <a href=""><small> Do Not Sell or Share My Personal Information</small></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
